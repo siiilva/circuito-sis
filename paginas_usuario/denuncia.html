@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/denuncia.css">
+    <title>Denúncia Rápida</title>
+</head>
+<body>
+    <div class="teladenuncia">
+    <button class="botao_voltar">←
+        <a href="../index.html">voltar</a>
+    </button><br>
+    <h1>DENÚNCIA</h1>
+<div class="imagem">
+  <img src="../anexos/imagens/image 9.png">
+</div>
+
+<div class="campo">
+    <label for="local">Onde aconteceu?</label><br>
+    <input type="text" id="local" placeholder="Diga rua, bairro ou referência">
+</div>
+
+<button type="button">
+    📍 Usar localização atual
+</button>
+
+<div class="campo">
+    <label for="problema">Tipo de problema</label><br>
+    <select id="problema">
+        <option selected disabled>Selecione</option>
+        <option>Buraco na rua</option>
+        <option>Iluminação pública</option>
+        <option>Lixo acumulado</option>
+        <option>Outros</option>
+    </select>
+</div>
+
+<div class="campo">ANEXAR MÍDIA</div>
+
+<!-- Comentário -->
+<div class="campo">
+    <label for="comentario">Adicionar comentário</label>
+</div>
+
+<textarea
+    id="comentario"
+    rows="4"
+    placeholder="Descreva um comentário do problema...">
+</textarea><br>
+
+<button type="button">Finalizar Denúncia</button>
+
+</div>
+
+<script src="/paginas_usuario/js/denuncia.js"></script>
+</body>
+</html>
+
+

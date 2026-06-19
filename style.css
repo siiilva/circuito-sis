@@ -5,6 +5,8 @@
 }
 
 .botao{
+  text-decoration: none;
+  
   background-color: #144269;
   color: white;
 
